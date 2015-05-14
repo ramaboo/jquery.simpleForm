@@ -1,0 +1,6 @@
+<div class="error-messages">
+  <h2>{{pluralize response.full_messages 'Error'}}</h2>
+  {{#each response.full_messages}}
+    <p>{{this}}</p>
+  {{/each}}
+</div>
